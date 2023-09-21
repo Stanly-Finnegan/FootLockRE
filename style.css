@@ -1,0 +1,732 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F7F8FA;
+}
+
+
+/* Header */
+
+.header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 10000000;
+    top: 0;
+    background-color: #F7F8FA;
+    
+}
+
+.header-layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.logo-header-container{
+    width: 189px;
+    height: auto;
+}
+
+.logo-header{
+    width: 100%;
+    height: auto;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0px;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 15px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Exo 2', sans-serif;
+    color: black;
+}
+
+#navbar li a:hover{
+    padding: 10px;
+    background-color: #252525;
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+#cart-icon{
+    cursor: pointer;
+}
+
+.cart-container{
+    width: 189px; display: flex; justify-content: right;
+}
+
+/* .cart-container{
+    background-color: #F7F8FA;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+    padding: 20px;
+    position: fixed;
+    width: 365px;
+    box-shadow: -2px 0 4px hsl(0 4% 15%/10%)
+} */
+
+/* END Header */
+
+
+/* Footer */
+
+.footer-container{
+    margin-top: 100px;
+    background-color: #252525;
+    height: 382px;  
+    padding: 66px 100px 0px 100px;
+}
+
+.footer-logo{
+    margin-bottom: 50px; width: 262px; height: auto;
+}
+
+.footer-contact-label{
+    font-weight: 600; font-size: 20px;
+}
+
+.sosial-media-name{
+    font-size: 16px;
+}
+
+.myacc-label{
+    font-size: 20px;
+}
+
+.footer-myacc-label{
+    font-weight: 600; font-size: 20px;
+}
+
+.footer-identify p{
+    margin: 0px;
+}
+
+.footer-info{
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    display: flex;
+    gap: 160px;
+    height: 220px;
+    justify-content: left;
+    align-items: center;
+    padding: 0%;
+}
+
+.footer-info-layout{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 300px;
+    height: 100%;
+}
+
+.footer-info-layout p{
+    margin: 0px;
+}
+
+.footer-contact-layout{
+    display: flex;
+    gap: 20px;
+    align-items: first baseline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-identify{ 
+    height: 100%; 
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: end;
+    align-items: end;
+}
+
+/* END Footer */
+
+
+/* Home */
+
+.Big-Title-Banner{
+    font-size: 48px; font-family: 'Raleway', sans-serif; margin: 0px;
+}
+
+.Small-Title-Banner{
+    font-size: 20px; font-family: 'Exo 2', sans-serif; margin: 0px;
+}
+.home-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 80px;
+   
+}
+
+.container-home-banner-left{
+    display: flex;
+    justify-content: center;
+}
+
+.home-banner-left a{
+    text-decoration: none;
+}
+
+.home-banner-left a p{
+    margin-right: 15px; font-size: 25px;
+}
+
+.home-banner-left{
+    width: 70%;
+    margin-left: 60px;
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+
+
+.home-shop-btn{
+    display: flex;
+    background-color: #252525;
+    color: white;
+    width: 253px;
+    height: 83px;
+    border-radius: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.home-shop-btn-arrow{
+    display: flex;
+    background-color: white;
+    width: 39px;
+    height: 39px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-arrivals-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.new-arrivals-text-container{
+    width: 95%; text-align: end;
+}
+
+
+
+.new-arrivals-text-container p{
+    font-family: 'Bruno Ace SC', cursive; font-size: 50px;
+}
+
+.home-product-arrivals-container{
+    width: 408px;
+    height: 573px;
+    font-family: 'Bruno Ace SC', cursive;
+    border-radius: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrivalproduct1{
+    background-color: #3E3D83;
+}
+.arrivalproduct2{
+    background-color: #C84B31;
+}
+
+.arrivalproduct3{
+    background-color: #346751;
+}
+
+.new-featured-text-container{
+    width: 95%;
+}
+
+.new-featured-text-container p{
+    font-family: 'Bruno Ace SC', cursive; font-size: 50px;
+}
+
+.home-product-arrivals-container-img{
+    transform: rotate(-38.09deg);
+    margin-top: 20%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
+
+.home-product-container-inside  {
+    width: 90%; height: 90%; display: flex; justify-content: center; flex-direction: column;
+}
+
+.product-number{
+    font-size: 48px; padding: 0px; margin: 0px 0px 0px 30px;
+}
+
+.home-product-name{
+    padding: 0px; margin: 0px 0px 10px 0px;
+}
+
+.home-product-price{
+    padding: 0px; margin: 0px 0px 20px 0px;
+}
+
+.home-product-TitlenPrice{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.home-product-background{
+    position: absolute;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* END Home */
+
+/* Shop */
+.shop-title-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.shop-big-title{
+    font-family: 'Bruno Ace SC', cursive; font-size: 64px; margin: 0px;
+}
+
+.shop-little-title{
+    font-family: 'Exo 2', sans-serif; font-size: 32px; margin: 0px;
+}
+
+.shop-product-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 365px;
+    height: 465px;
+    background-color: white;
+    border-radius: 80px 0px;
+    padding: 20px;
+    box-shadow: 0px 305px 122px rgba(0, 0, 0, 0.01), 0px 171px 103px rgba(0, 0, 0, 0.05), 0px 76px 76px rgba(0, 0, 0, 0.09), 0px 19px 42px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.shop.marginpadding-img{
+    margin: 0px;
+    padding: 0px;
+}
+.shop-product-text p{
+    text-align: left; padding: 0px 25px;
+                     font-family: 'Bruno Ace SC', sans-serif;
+                      font-size: 30px; margin: 0px;
+}
+
+.shop-product-text{
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.shop-product-price-btn p{
+    margin: 0px;
+}
+
+.shop-product-price-btn{
+    display: flex;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 32px;
+    padding: 0px 25px 0px 25px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 70px;
+}
+
+.shop-product-btn{
+    background-color: #252525 ;
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.shop-product-btn:hover{
+    padding: 5px;
+    transition: 0.3s;
+}
+
+/* .grid-view{
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+} */
+
+.grid-view{
+    margin-top: 2%;
+    width: 95%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(365px, auto));
+    gap: 80px;
+    grid-auto-rows: minmax(100px, auto);
+    
+    
+}
+
+/* END Shop */
+
+
+/* Subscbribe */
+
+.subscribe-content-container{
+    display: flex;
+    margin-top: 100px;
+}
+
+.subscribe-content-left{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+
+    margin-bottom: 100px;
+}
+
+.subscribe-content-right{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.subscribe-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    border-radius: 80px 0px;
+    padding: 20px;
+    box-shadow: 0px 305px 122px rgba(0, 0, 0, 0.01), 0px 171px 103px rgba(0, 0, 0, 0.05), 0px 76px 76px rgba(0, 0, 0, 0.09), 0px 19px 42px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-form-layout{
+    width: 85%;
+    height: 80%;
+    display: flex;;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.subscribe-input-layout{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    gap: 5px;
+    font-weight: 450;
+}
+
+.subscribe-input-layout input{
+    border-radius: 8px;
+    border-width: 1px;
+    height: 2rem;
+    padding-left: 10px;
+}
+
+#selectPhone{
+    border-radius: 8px;
+    border-width: 1px;
+    width: 4rem;
+    height: 2.3rem;
+    padding-left: 10px;
+}
+
+#phone-layout{
+
+    display: flex; 
+    gap: 2%;
+}
+
+#phone-layout input{
+    width: 100%;
+}
+
+#selectCountry{
+    height: 2.3rem;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.subscribe-terms{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+
+}
+
+.subscribe-submit{
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+.subscribe-submit button{
+    background-color: #252525;
+    height: 40%;
+    width: 40%;
+    color: white;
+    border-radius: 80px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.subscribe-big-label{
+    font-family: 'Bruno Ace SC', cursive; font-size: 48px; margin: 5px 0px;
+}
+
+.subscribe-little-label{
+    font-family: 'Exo 2', sans-serif; font-size: 20px; margin: 0px;
+}
+
+.error-msg{
+    padding: 0;
+    margin: 0;
+    color: red;
+}
+
+
+/* END Subscribe */
+
+
+
+/* AboutUs */
+
+.about-banner-img img{
+    width: 100%;
+    margin-top: 80px;
+    height: auto;
+}
+
+.content-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-about-text{
+    width: 80vw;
+}
+
+.content-about-text p{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.content-container{
+    height: 80vh;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.content-container .history{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 90vh;
+    background-color: white;
+    border-radius: 80px 0px;
+    box-shadow: 0px 305px 122px rgba(0, 0, 0, 0.01), 0px 171px 103px rgba(0, 0, 0, 0.05), 0px 76px 76px rgba(0, 0, 0, 0.09), 0px 19px 42px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.content-container .history p{
+    color: black;
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.content-section .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 30vw;
+    height: 15vh;
+    left: 0;
+    top: 110%;
+    background: #346751;
+    font-size: 3rem;
+    color: white;
+    
+}
+
+.content-container .decor{
+    width: 30vw;
+    height: 15vh;
+    position: absolute;
+    background-color: #C84B31;
+    right: 0;
+    top: 165%;
+}
+
+.content-container .img{
+    position: absolute;
+    right: 0;
+    top: 110%;
+}
+
+/* END AboutUs */
+
+
+
+/* Event */
+
+
+
+
+.event-banner img{
+    width: 100%;
+    margin-top: 80px;
+    
+}
+
+
+
+
+.event-banner .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    gap: 1.5rem;
+    position: absolute;
+    top: 35vh;
+    left: 27vw;
+    
+    
+}
+
+
+
+.event-banner .container .title{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1em;
+    color: white;
+}
+
+.event-banner .container .banner-date{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 0.5em;
+    color: white;
+}
+
+.event-banner .container .register{
+    background-color: #252525;
+    width: 10vw;
+    height: 6vh;
+    color: white;
+    border-radius: 100px;
+}
+
+.event-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+
+.event-container img{
+    height: 70%;
+    border-radius: 50px;
+}
+
+.event-container .content-container{
+    width: 70%;
+    display: flex;
+    border-radius: 80px 80px;
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 22px;
+    gap: 20px;
+    color: black;
+    box-shadow: 0px 305px 122px rgba(0, 0, 0, 0.01), 0px 171px 103px rgba(0, 0, 0, 0.05), 0px 76px 76px rgba(0, 0, 0, 0.09), 0px 19px 42px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.event-container .content-container .data{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+
+
+/* END Event */
+
+
+/* <!-- font-family: 'Bruno Ace SC', cursive;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Raleway', sans-serif; --> */

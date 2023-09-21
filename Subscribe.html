@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Font -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Exo+2:wght@500&family=Raleway:wght@700&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/572d45e882.js" crossorigin="anonymous"></script>
+     <!-- END Font -->
+     
+     <!-- Import -->
+ 
+     <link rel="stylesheet" href="style.css">
+     
+ 
+     <!-- END Import -->
+
+    <title>Document</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+
+    <div class="header-layout">
+
+        <div class="logo-header-container">
+            <a href="Home.html">
+                <img src="Assets/Logo-Black.png" class="logo-header" alt="">
+            </a>
+       </div>
+
+    <div>
+        <ul id="navbar">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Event.html">Event</a></li>
+            <li><a href="Subscribe.html">Subscribe</a></li>
+        </ul>
+    </div>
+
+    <div class="cart-container">
+        <i id="cart-icon" class="fa-solid fa-bag-shopping fa-2xl" style="color: #0d0d0d;"></i>
+    </div>
+
+    </div>
+       
+</header>
+
+<!-- END Header -->
+
+    <!-- Content -->
+    
+    <section class="subscribe-content-container">
+
+        <div class="subscribe-content-left">
+            
+            <div class="subscribe-content-title">
+
+                <p class="subscribe-big-label">Subscribe</p>
+                <p class="subscribe-little-label">Subscribe to our newsletter and stay updated!</p>
+
+            </div>
+
+            <img src="Assets/subscribe-image merge.png" alt="">
+
+        </div>
+
+        <div class="subscribe-content-right">
+
+            <div class="subscribe-form-container">
+
+
+                <form action="" id="form">
+
+
+                    <div class="subscribe-form-layout" onsubmit="return validate()">
+
+                        <div class="subscribe-input-layout">
+    
+                            <label for="Name">Name*</label>
+                            <input type="text" name="inputName" id="inputName" placeholder="your name">
+    
+                        </div>
+    
+                        <div class="subscribe-input-layout">
+    
+                            <label for="Email">Email Address*</label>
+                            <input type="email" name="inputEmail" id="inputEmail" placeholder="youremail@email.com">
+                        </div>
+                        
+    
+                        <div class="subscribe-input-layout">
+    
+                            <label for="Phone">Phone Number*</label>
+    
+                            <div id="phone-layout">
+    
+                                <select name="selectPhone" id="selectPhone">
+                                    <option value="Indonesia">+62</option>
+                                    <option value="Malaysia">+60</option>
+                                    <option value="Filipina">+63</option>
+                                </select>
+        
+                                <input type="text" name="inputPhone" id="inputPhone" placeholder="000-xxxx-xxxx">
+    
+                            </div>
+    
+                        </div>
+    
+                        <div class="subscribe-input-layout">
+    
+                            <label for="Country">Country*</label>
+                            <select name="selectCountry" id="selectCountry">
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Malaysia">Malaysia</option>
+                                <option value="Filipina">Filipina</option>
+                            </select>
+    
+                        </div>
+    
+                        <div class="subscribe-terms">
+    
+                            <input type="checkbox" id="tos">
+                            <span>I accept the <u>Terms and Conditions*</u></span>
+                        </div>
+                        <p class="error-msg" id="error"></p>
+    
+                        <div class="subscribe-submit">
+                            <button id="submit">
+                                Subscribe
+                            </button>
+                        </div>
+    
+    
+                    </div>
+
+
+                </form>
+                
+    
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END Content -->
+
+    <!-- Footer -->
+    
+    <footer class="footer-container">
+
+       
+        <img src="Assets/Logo-White.png" alt="" class="footer-logo">
+        
+
+        <div class="footer-info">
+
+            <div class="footer-info-layout">
+                <p class="footer-contact-label">Contact</p>
+                <div class="footer-contact-layout">
+                    <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff; width: 24px;"></i>
+                    <p class="social-media-name">footlockre.id</p>
+                </div>
+                <div class="footer-contact-layout">
+                    <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff; width: 24px;"></i>
+                    <p class="social-media-name" >FootLockRE.id</p>
+                </div>
+                <div class="footer-contact-layout">
+                    <i class="fa-solid fa-envelope" style="color: #ffffff; width: 24px;"></i>
+                    <p class="social-media-name" >FootLockRE.id@Gmail.com</p>
+                </div>
+                <div class="footer-contact-layout">
+                    <i class="fa-sharp fa-solid fa-phone fa-lg" style="color: #ffffff; width: 24px;"></i>
+                    <p class="social-media-name" >+62 81929394950</p>
+                </div>
+            </div>
+
+            <div class="footer-info-layout">
+                <p class="footer-myacc-label">My Account</p>
+                <p class="myacc-detail" >Sign In</p>
+                <p class="myacc-detail" >View Cart</p>
+                <p class="myacc-detail" >Help</p>
+            </div>
+
+            <div class="footer-identify">
+                <p   >Design by</p>
+                <p   >Stanly Finnegan - 2540129306 </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- END Footer -->
+
+    
+</body>
+<script src="script.js"></script>
+</html>
+
+<!-- font-family: 'Bruno Ace SC', cursive;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Raleway', sans-serif; -->
